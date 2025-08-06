@@ -1,12 +1,27 @@
-# React + Vite
+# DevTinder Fronted
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Created a Vite+react project
+- Created git repo of it
+- Daisy UI + Tailwind
+- Created a Navbar using daisyUi
+- Created Routing , Outlet
+- Create a Login Page
+- install axios {withCredentials:true} , if you not pass this , you will not get the token.
+- setup cors in backend { origin: "http://localhost:5173",
+  credentials: true,} 
+- installed redux-toolkit react-redux
+- configStore , provider the app , create SLice , add reducer to store,
+- to add data dispatch the action
+- to get the data subscribe the store
+- tokenNot present then redirect it .
+- Logout featutre
+- User card 
+-Edit profile feature 
+- toast message
+-See all my connection
+- requests page
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
