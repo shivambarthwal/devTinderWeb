@@ -89,6 +89,14 @@ const NavBar = () => {
                     </Link>
                   </li>
                   <li>
+                    <Link
+                      to="/premium"
+                      className="block px-4 py-2 hover:bg-gray-100 rounded"
+                    >
+                      Premium
+                    </Link>
+                  </li>
+                  <li>
                     <button
                       onClick={handleLogout}
                       className="block w-full text-left px-4 py-2 hover:bg-gray-100 rounded"
@@ -137,6 +145,13 @@ const NavBar = () => {
               onClick={() => setMenuOpen(false)}
             >
               Profile
+            </Link>
+            <Link
+              to="/premium"
+              className="hover:text-indigo-600"
+              onClick={() => setMenuOpen(false)}
+            >
+              Premium
             </Link>
             <button
               onClick={handleLogout}
